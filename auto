@@ -1,0 +1,23 @@
+offer-comparison/
+ ├── pom.xml
+ ├── src/
+ │   ├── main/
+ │   │   ├── java/
+ │   │   │   └── com/example/offers/
+ │   │   │       ├── OfferComparisonApplication.java
+ │   │   │       ├── controller/
+ │   │   │       │     └── FileController.java
+ │   │   │       ├── model/
+ │   │   │       │     └── Vendor.java
+ │   │   │       ├── service/
+ │   │   │       │     ├── FileProcessingService.java
+ │   │   │       │     └── PdfGeneratorService.java
+ │   │   │       └── repository/
+ │   │   │             └── VendorRepository.java
+ │   │   ├── resources/
+ │   │   │     ├── templates/
+ │   │   │     │     ├── index.html
+ │   │   │     │     ├── comparison.html
+ │   │   │     │     └── sourcing.html
+ │   │   │     └── application.properties
+ │   └── test/
